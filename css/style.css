@@ -1,10 +1,21 @@
-@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); }
-@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf'); }
+@font-face {
+    font-family: 'droid_sans_monoregular';
+    src: url('droidsansmono-webfont.eot');
+    src: url('droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('droidsansmono-webfont.woff') format('woff'),
+         url('droidsansmono-webfont.ttf') format('truetype'),
+         url('droidsansmono-webfont.svg#droid_sans_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
-    font-family: 'DroidSansMonoRegular';
-    src: url('DroidSansMono-webfont.eot');
-    src: local('?'), url('DroidSansMono-webfont.woff') format('woff'), url('DroidSansMono-webfont.ttf') format('truetype'), url('DroidSansMono-webfont.svg#webfontVHHYtszH') format('svg');
+    font-family: 'delius_unicaseregular';
+    src: url('deliusunicase-regular-webfont.eot');
+    src: url('deliusunicase-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('deliusunicase-regular-webfont.woff') format('woff'),
+         url('deliusunicase-regular-webfont.ttf') format('truetype'),
+         url('deliusunicase-regular-webfont.svg#delius_unicaseregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,9 +23,17 @@
 body {
     background-color: #F5F6F0;
     color: #666666;
-    padding-top: 5%;
-    padding-left: 5%;
-    font-family: 'DroidSansMonoRegular', Arial, sans-serif;
+    font-family: 'droid_sans_monoregular', Arial, sans-serif;
+}
+
+div#title {
+    font-family: 'delius_unicaseregular', Arial, sans-serif;
+    font-size: 48px;
+}
+
+div#main {
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 p {
