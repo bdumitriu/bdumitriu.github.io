@@ -20,6 +20,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'drunkenserifmedium';
+    src: url('drunkenserif-webfont.woff2') format('woff2'),
+         url('drunkenserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #F5F6F0;
     color: #666666;
