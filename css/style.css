@@ -1,4 +1,28 @@
 @font-face {
+    font-family: 'jmh_typewriter';
+    src: url('../fonts/jmh_typewriter/JMH Typewriter.otf') format ('otf'),
+         url('../fonts/jmh_typewriter/JMH Typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jmh_typewriter';
+    src: url('../fonts/jmh_typewriter/JMH Typewriter-Bold.otf') format ('otf'),
+         url('../fonts/jmh_typewriter/JMH Typewriter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jmh_typewriter';
+    src: url('../fonts/jmh_typewriter/JMH Typewriter-Thin.otf') format ('otf'),
+         url('../fonts/jmh_typewriter/JMH Typewriter-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'droid_sans_monoregular';
     src: url('droidsansmono-webfont.eot');
     src: url('droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
@@ -31,11 +55,11 @@
 body {
     background-color: #F5F6F0;
     color: #666666;
-    font-family: 'drunkenserifmedium', Arial, sans-serif;
+    font-family: 'jmh_typewriter', Arial, sans-serif;
 }
 
 div#title {
-    font-family: 'delius_unicaseregular', Arial, sans-serif;
+    font-family: 'jmh_typewriter', Arial, sans-serif;
     font-size: 48px;
 }
 
