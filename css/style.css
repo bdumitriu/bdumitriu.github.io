@@ -71,10 +71,7 @@ div#main {
 p {
     color: #0099cc;
     line-height: 1.2;
-}
-
-.indented {
-    text-indent: 50pt;
+    text-indent: 25px;
 }
 
 div.booktitle {
